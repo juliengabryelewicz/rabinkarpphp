@@ -1,0 +1,24 @@
+{
+    "name": "juliengabryelewicz/rabinkarpphp",
+    "license": "MIT",
+    "type": "project",
+    "description": "Implementation of Rabin-Karp Algorithm in PHP",
+    "autoload": {
+        "psr-4" : {
+            "RabinKarp\\" : "src/RabinKarp/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "Tests\\RabinKarp\\" : "tests/RabinKarp/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "scripts": {
+        "test": [
+            "phpunit tests/**/*.php"
+        ]
+    }
+}
